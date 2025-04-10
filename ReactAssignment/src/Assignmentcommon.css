@@ -1,0 +1,155 @@
+/* Make sure root takes full space */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Full-page wrapper */
+.assignment-section {
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 5%;
+  background-color: #f0ebe3;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card styling */
+.assignment-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+/* Layout rows inside cards */
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  width: 100%;
+}
+
+/* Input styling */
+.assignment-input {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.assignment-button {
+  display: flex;
+  align-items: center;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.assignment-button:hover {
+  background-color: #5a4dcf;
+}
+
+/* Button group (vertical or horizontal) */
+.assignment-buttons-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.full-screen {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+
+.button-group-horizontal {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.assignment-form-container {
+  margin-top: 1rem;
+}
+/* THEME STYLES */
+
+/* Light Theme (default) */
+.light-theme {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.dark-theme .calculator-container,
+.dark-theme .tracker-container,
+.dark-theme .theme-switcher-container {
+  background-color: #2b2b2b;
+  color: #f1f1f1;
+  box-shadow: 0 4px 10px rgba(255,255,255,0.05);
+}
+
+.dark-theme input {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #666;
+}
+/* assignment5/Assignmentcommon.css */
+.assignment-page {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.assignment-container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.assignment-buttons-vertical button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #4c51bf;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.assignment-card {
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 20px;
+}
+

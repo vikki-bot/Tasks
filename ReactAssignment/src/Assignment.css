@@ -1,0 +1,66 @@
+/* Fullscreen layout */
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #f0fdf4, #d1fae5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card-style container */
+.assignment-container.card {
+  background-color: #ffffff;
+  padding: 40px 60px;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+.title {
+  font-size: 32px;
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 22px;
+  color: #047857;
+  margin-bottom: 20px;
+}
+
+/* Vertical button list */
+.assignment-buttons-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+/* Buttons with green-teal theme */
+.assignment-buttons-vertical button {
+  width: 220px;
+  padding: 12px 20px;
+  background-color: #10b981; /* Teal green */
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.assignment-buttons-vertical button:hover {
+  background-color: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
